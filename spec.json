@@ -1,40 +1,50 @@
 {
-  "namespace/BlockName": {
-    "version": "1.0.0",
-    "description": "Description of the block.",
+  "nio/Lifx": {
+    "version": "0.1.0",
+    "description": "nio block for connection to a Lifx smart bulb on the same network.",
+    "categories": [],
     "properties": {
-      "<property1>": {
-        "description": "Required description of the property"
+      "bri": {
+        "title": "Brightness (0-65535)",
+        "type": "IntType",
+        "description": "Brightness of the bulb, 0 will turn the bulb off.",
+        "default": 65535
       },
-      "<property2>": {
-        "default": "Optional metadata with any key.",
-        "description": "Required description of the property"
+      "hue": {
+        "title": "Hue (0-65535)",
+        "type": "IntType",
+        "description": "Hue of the bulb configurable from 0-65535.",
+        "default": 0
+      },
+      "kelvin": {
+        "title": "Kelvin (2500-9000)",
+        "type": "IntType",
+        "description": "Temp of the light in Kelvin.",
+        "default": 3500
+      },
+      "power": {
+        "title": "1 for on 0 for off",
+        "type": "IntType",
+        "description": "Turn the bulb on or off.",
+        "default": 0
+      },
+      "sat": {
+        "title": "Saturation (0-65535)",
+        "type": "IntType",
+        "description": "Saturation of the bulb color, configuralbe from 0-65535.",
+        "default": 0
       }
     },
     "inputs": {
-      "<input1 | default>": {
-        "description": "Required description of the input"
-      },
-      "<input2>": {
-        "description": "Required description of the input"
+      "default": {
+        "description": "Any list of Signals."
       }
     },
     "outputs": {
-      "<output1 | default>": {
-        "description": "Required description of the output"
-      },
-      "<output2>": {
-        "description": "Required description of the output"
+      "default": {
+        "description": "The same list of signals."
       }
     },
-    "commands": {
-      "<command1>": {
-        "description": "Required description of the command",
-        "type": "Optional type and other metadata with any key."
-      },
-      "<command2>": {
-        "description": "Required description of the command"
-      }
-    }
+    "commands": {}
   }
 }
