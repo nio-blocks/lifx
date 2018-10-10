@@ -3,6 +3,7 @@ from nio.properties import VersionProperty, IntProperty, BoolProperty
 import sys
 from lifxlan import LifxLAN
 
+
 class Lifx(Block):
 
     version = VersionProperty('0.1.0')
