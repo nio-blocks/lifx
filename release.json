@@ -1,7 +1,7 @@
 {
   "nio/Lifx": {
     "language": "Python",
-    "url": "git://github.com/ssclay/lifx.git",
+    "url": "git://github.com/nio-blocks/lifx.git",
     "version": "0.1.0"
   }
 }
