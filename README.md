@@ -1,6 +1,6 @@
 Lifx
 ====
-nio block for connection to a Lifx smart bulb on the same network. The MAC address and IP address of the light must be known. Colors are described using hue, saturation, and brightness.
+nio block for connecting to a Lifx smart bulb on the same network. The MAC address and IP address of the light must be known. Colors are described using hue, saturation, and brightness.
 
 | Color | Hue | Saturation | Brightness |
 | ----- | :---: | :---: | :---: | 
