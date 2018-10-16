@@ -9,7 +9,7 @@ nio block for connection to a Lifx smart bulb on the same network. The MAC addre
 | Yellow | 9000 | 65535 | 65535 |
 | Green | 16000 | 65535 | 65535 |
 | Blue | 43000 | 65535 | 65535 |
-| White | 58275 | 65535 | 65535 |
+| White | 58275 | 0 | 65535 |
 
 Properties
 ----------
