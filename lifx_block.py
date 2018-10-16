@@ -22,7 +22,6 @@ class Lifx(Block):
         super().configure(context)
         self.bulb = Light(self.mac(), self.ip())
 
-
     def process_signals(self, signals):
         for signal in signals:
             if self.power(signal) == 0:
