@@ -16,11 +16,29 @@
         "description": "Hue of the bulb configurable from 0-65535.",
         "default": 0
       },
+      "ip": {
+        "title": "IP Address",
+        "type": "StringType",
+        "description": "IP address of the light.",
+        "default": "[[LIFX_IP]]"
+      },
       "kelvin": {
         "title": "Kelvin (2500-9000)",
         "type": "IntType",
         "description": "Temp of the light in Kelvin.",
         "default": 3500
+      },
+      "kill_switch": {
+        "title": "Turn off Light at Service Stop?",
+        "type": "BoolType",
+        "description": "If selected, light will turn off when nio service stops.",
+        "default": true
+      },
+      "mac": {
+        "title": "MAC address",
+        "type": "StringType",
+        "description": "MAC address of the light.",
+        "default": "[[LIFX_MAC]]"
       },
       "power": {
         "title": "1 for on 0 for off",
