@@ -2,7 +2,9 @@
   "nio/Lifx": {
     "version": "0.1.0",
     "description": "nio block for connection to a Lifx smart bulb on the same network.",
-    "categories": [],
+    "categories": [
+      "Hardware"
+    ],
     "properties": {
       "bri": {
         "title": "Brightness (0-65535)",
