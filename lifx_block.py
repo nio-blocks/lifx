@@ -7,7 +7,7 @@ from lifxlan import Light
 
 class Lifx(Block):
 
-    version = VersionProperty('0.1.0')
+    version = VersionProperty("1.0.1")
     mac = StringProperty(title='MAC address', default='[[LIFX_MAC]]')
     ip = StringProperty(title='IP Address', default='[[LIFX_IP]]')
     power = IntProperty(title='1 for on 0 for off', default=0)
